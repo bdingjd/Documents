@@ -12,3 +12,26 @@ sudo pacman -S <package>
 #remove
 sudo pacman -R <package>
 ```
+# Arch User Repository (AUR)
+
+If you can't find certain packages, such as python-gym, you can try to search for it using the following command.
+
+```bash
+# AUR application search
+yaourt <package name>
+
+# For example
+yaourt python-gym
+```
+Typically you want to install items that have good version numbers and -git at the end:
+
+1 aur/python-gym-git r761.efeadfd-1 (6) (0.36)
+
+# Installing python packages in Manjaro
+
+Instead of using `pip` use `pacman` like so:
+
+```bash
+sudo pacman -S python-<package name>
+```
+
