@@ -27,9 +27,9 @@ Typically you want to install items that have good version numbers and -git at t
 
 1 aur/python-gym-git r761.efeadfd-1 (6) (0.36)
 
-# Installing python packages in Manjaro
+# Installing global python packages in Manjaro
 
-Instead of using `pip` use `pacman` like so:
+If you do not use a **virtual environment**, instead of using `pip` use `pacman` like so:
 
 ```bash
 sudo pacman -S python-<package name>
